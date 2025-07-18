@@ -1,36 +1,72 @@
-PALAK SONI
-ENTC A3
-24070123069
+# Data Types in C++
 
+**Name:** Palak Soni  
+**Division:** ENTC-A3  
+**PRN:** 24070123069  
 
-Data Types in C++
-In this program, I explored some of the basic data types in C++ like int, float, double, char, string, and bool. The main aim was to understand how different types of data are stored in memory and how much space each type occupies.
+---
 
-Data Types Used
-Integer (int): Used to store whole numbers. It usually takes 4 bytes of memory.
+## Overview
 
-Float (float): Used to store decimal numbers with single precision. It also typically takes 4 bytes.
+This program explores some of the most commonly used **data types** in C++. The main objective is to understand how different types of data are stored in memory, how much space each occupies, and how to use them effectively in a program.
 
-Double (double): Similar to float but with double precision (more accurate), and it takes 8 bytes.
+---
 
-Character (char): Stores a single character like 'A' or 'z'. It only uses 1 byte.
+## Data Types Covered
 
-String (string): Stores a sequence of characters (like words). Its size in memory can vary depending on implementation, but the variable itself usually occupies more space as it internally uses dynamic memory.
+1. **Integer (`int`)**  
+   - Stores whole numbers like `5`, `100`, `-42`  
+   - Usually takes **4 bytes** of memory
 
-Boolean (bool): Stores either true or false, but still takes 1 byte.
+2. **Float (`float`)**  
+   - Used for decimal values with single precision like `3.14`, `-0.5`  
+   - Typically takes **4 bytes**
 
-Concepts
-The sizeof() operator in C++ tells us how much memory (in bytes) a particular data type or variable takes.
+3. **Double (`double`)**  
+   - Stores decimal values with double precision, offering more accuracy than `float`  
+   - Occupies **8 bytes**
 
-Even though some values may look small, the memory they take can be larger due to how the computer stores them.
+4. **Character (`char`)**  
+   - Stores a single character such as `'A'` or `'z'`  
+   - Takes **1 byte** of memory
 
-Every data type is different, and it’s important to choose the right one based on what we need (like accuracy, memory, etc.).
+5. **String (`string`)**  
+   - Stores a sequence of characters, e.g., `"Hello"`  
+   - Memory size varies since it uses **dynamic memory allocation**
 
-I also understood how cin and cout work for taking input and showing output in C++.
+6. **Boolean (`bool`)**  
+   - Represents truth values: `true` or `false`  
+   - Still takes **1 byte**, despite representing only 0 or 1
 
-A bool still takes 1 byte even though it only stores 0 or 1.
+---
 
-Double is more accurate but uses more memory than float.
+## Key Concepts Demonstrated
 
-String is more complex internally — it’s not just a collection of characters but also involves memory management.
+- **`sizeof()` Operator**  
+  Used to determine how many bytes each data type occupies in memory.
+
+- **Memory vs Value**  
+  Even though some values (like a `bool`) are small in terms of information, they still take standard memory sizes due to how systems store them.
+
+- **Choosing the Right Type**  
+  The correct data type depends on the requirement:  
+  Use `int` for counting, `float` or `double` for decimals, `char` for single letters, and `string` for words or sentences.
+
+- **Input & Output**  
+  Learned how to use `cin` and `cout` for taking input and displaying output in C++.
+
+---
+
+## Observations
+
+- A `bool` takes 1 byte, not just 1 bit, due to system memory alignment.
+- `double` is more precise than `float`, but consumes more memory.
+- `string` is not a primitive type like `int`; it handles memory dynamically and is more complex internally.
+
+---
+
+Understanding data types is fundamental to writing efficient and correct C++ programs. This program helped visualize how much memory different variables take and emphasized the importance of choosing the appropriate type based on data and performance needs.
+
+---
+
 
