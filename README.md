@@ -56,7 +56,19 @@ This program explores some of the most commonly used **data types** in C++. The 
   Learned how to use `cin` and `cout` for taking input and displaying output in C++.
 
 ---
-
+## SampleOutput
+- Enter any integer:12
+- Integer = 12 and size is 4 bytes
+- Enter any number with decimal:12.12
+- Float= 12.12 and size is 4 bytes
+- Enter any number with decimal:12.78
+- Double= 12.78 and size is 8 bytes
+- Enter any string:palak
+- String = palak and size is 32 bytes
+- Enter any character:h
+- Character = h and size is 1 bytes
+- Enter any boolean:true
+- Boolean = 0 and size is 1 bytes
 ## Observations
 
 - A `bool` takes 1 byte, not just 1 bit, due to system memory alignment.
