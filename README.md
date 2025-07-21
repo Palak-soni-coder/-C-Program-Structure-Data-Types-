@@ -1,9 +1,10 @@
 # Data Types in C++
 
 **Name:** Palak Soni  
-**Division:** ENTC-A3  
 **PRN:** 24070123069  
-
+**Division:** ENTC-A3  
+**Title:** Program on Data Types in C++
+**Tools used:** Visual Studio Code
 ---
 
 ## Overview
@@ -69,6 +70,7 @@ This program explores some of the most commonly used **data types** in C++. The 
 - Character = h and size is 1 bytes
 - Enter any boolean:true
 - Boolean = 0 and size is 1 bytes
+- 
 ## Observations
 
 - A `bool` takes 1 byte, not just 1 bit, due to system memory alignment.
