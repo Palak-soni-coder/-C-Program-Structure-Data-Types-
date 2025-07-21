@@ -43,12 +43,16 @@ int main(){
 
 
 /*Output
-
-
-
-
-
-
-
-
+Enter any integer:12
+Integer = 12 and size is 4 bytes
+Enter any number with decimal:12.12
+Float= 12.12 and size is 4 bytes
+Enter any number with decimal:12.78
+Double= 12.78 and size is 8 bytes
+Enter any string:palak
+String = palak and size is 32 bytes
+Enter any character:h
+Character = h and size is 1 bytes
+Enter any boolean:true
+Boolean = 0 and size is 1 bytes
 */
