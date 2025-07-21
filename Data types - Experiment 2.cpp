@@ -1,7 +1,9 @@
-EXPERIMENT - 2
-PALAK SONI
-24070123069
-ENTC A3
+// EXPERIMENT - 2
+// PALAK SONI
+// 24070123069
+// ENTC A3
+//Problem statement- Write a program which includes different data types of C++.
+
 
 #include <iostream>
 using namespace std;
@@ -39,3 +41,14 @@ int main(){
     return 0;
 }
 
+
+/*Output
+
+
+
+
+
+
+
+
+*/
