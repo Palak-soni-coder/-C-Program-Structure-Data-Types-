@@ -3,7 +3,7 @@
 **Name:** Palak Soni  
 **PRN:** 24070123069  
 **Division:** ENTC-A3  
-**Title:** Program on Data Types in C++
+**Title:** Program on Data Types in C++  <br>
 **Tools used:** Visual Studio Code
 ---
 
